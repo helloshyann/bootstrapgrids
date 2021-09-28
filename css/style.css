@@ -93,6 +93,10 @@ main>.container-fluid {
     min-height: 50vh;
 }
 
+.side-grid-height {
+    min-height: 22vh;
+}
+
 .border {
     border-color: #bc0b6c !important;
 }
