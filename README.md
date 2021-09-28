@@ -1,2 +1,2 @@
-# bootstrapgrids
-Essential grids that every developer needs to know
+# Bootstrap Grids
+Essential grids that every developer needs to know!
