@@ -1,8 +1,23 @@
+@font-face {
+    font-family: mandalore;
+    src: url('mandalorehalfital.ttf');
+}
+
 body {
     color: #fff;
     background-color: #000;
+    background-image: url("/img/background.gif");
     font-size: 1.1em;
     font-family: arial;
+}
+
+.headline {
+    font-family: mandalore;
+    font-size: 5em;
+    margin: 0;
+    color: #3d8ad8;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #e2c41e;
 }
 
 .indent {
