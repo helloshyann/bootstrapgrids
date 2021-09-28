@@ -91,22 +91,20 @@
                 <h5 class="tagline text-center mb-3">
                     Two rows; first row with one full width column, second row with four equally sized columns using order classes to change display.
                     <br/>
-                    All inside container-fluid div.
+                    All inside a container div.
                 </h5>
             </header>
         </div>
         
-        <div class="container-fluid">
+        <div class="container">
             <div class="row row-cols-1 gy-3">
-                <div class="col pb-3">
+                <div class="col col-md-3 order-md-last pb-3">
                     <div class="col-pink p-2 minheight">
-                        COLUMN ONE
+                        COLUMN ONE, in order-md-last
                     </div>
                 </div>
-            </div>
 
-            <div class="row row-cols-1 gy-3">
-                <div class="col col-md-3">
+                <div class="col col-md-12">
                     <div class="col-blue p-2 minheight">
                         COLUMN TWO
                     </div>
