@@ -3,12 +3,17 @@
     src: url('mandalorehalfital.ttf');
 }
 
+@font-face {
+    font-family: comfortaa;
+    src: url('Comfortaa-Regular.ttf');
+}
+
 body {
     color: #fff;
     background-color: #000;
     background-image: url("/img/background.gif");
     font-size: 1.1em;
-    font-family: arial;
+    font-family: comfortaa;
 }
 
 .headline {
@@ -18,6 +23,10 @@ body {
     color: #3d8ad8;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #e2c41e;
+}
+
+.tagline {
+    color: #e2c41e;
 }
 
 .indent {
