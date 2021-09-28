@@ -8,6 +8,10 @@
     src: url('Comfortaa-Regular.ttf');
 }
 
+a:hover {
+    color: #e2c41e !important;
+}
+
 body {
     color: #fff;
     background-color: #000;
@@ -63,4 +67,16 @@ main>.container {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+.col-blue {
+    background-color: #3d8ad8;
+}
+
+.col-yellow {
+    background-color: #e2c41e;
+}
+
+.col-pink {
+    background-color: #bc0b6c;
 }
