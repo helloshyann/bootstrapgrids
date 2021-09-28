@@ -1,11 +1,11 @@
 @font-face {
     font-family: mandalore;
-    src: url('mandalorehalfital.ttf');
+    src: url('fonts/mandalorehalfital.ttf');
 }
 
 @font-face {
     font-family: comfortaa;
-    src: url('Comfortaa-Regular.ttf');
+    src: url('fonts/Comfortaa-Regular.ttf');
 }
 
 a:hover {
